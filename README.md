@@ -1,4 +1,4 @@
-<!-- 📌 Project Overview
+📌 Project Overview
 
 This project is a New Booking Entry screen built as part of a Frontend Engineering Assessment for a Logistics ERP system.
 
@@ -99,7 +99,7 @@ Installation
 
 Clone the repository:
 
-git clone <your-repository-url>
+git clone <https://github.com/muhammed-asharaf-vp/ERP-system.git>
 
 
 Navigate to the project directory:
@@ -150,6 +150,10 @@ No backend API integration was implemented, as per the assessment requirements.
 
 The project is structured to be easily scalable if additional ERP features are added in the future.
 
+This project was built within the given assessment time constraints,
+focusing on clarity, correctness, and maintainability over over-engineering.
+
+
 👤 Author
 
-mohamed Asharaf vp -->
+Mohamed Asharaf VP
