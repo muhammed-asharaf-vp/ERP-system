@@ -26,7 +26,7 @@ export default function FormInput({
 
   return (
     <div className="flex flex-col gap-1">
-      {/* Label */}
+      {/* label */}
       <label
         htmlFor={name}
         className="text-sm font-medium text-gray-700"
@@ -34,7 +34,7 @@ export default function FormInput({
         {label}
       </label>
 
-      {/* Input */}
+      {/* input */}
       <input
         id={name}
         type={type}

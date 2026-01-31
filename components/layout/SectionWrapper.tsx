@@ -13,12 +13,12 @@ export default function SectionWrapper({
 }: SectionWrapperProps) {
   return (
     <section className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
-      {/* Section Title */}
+      {/* section title */}
       <h2 className="mb-4 text-lg font-semibold text-gray-800">
         {title}
       </h2>
 
-      {/* Section Content */}
+      {/* section content */}
       <div className="space-y-4">{children}</div>
     </section>
   );

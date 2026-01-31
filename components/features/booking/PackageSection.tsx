@@ -16,7 +16,7 @@ export default function PackageSection() {
   return (
     <SectionWrapper title="Package Details">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        {/* Weight */}
+        {/* weight */}
         <FormInput
           name="weight"
           label="Weight (kg)"
@@ -24,7 +24,7 @@ export default function PackageSection() {
           placeholder="Enter weight"
         />
 
-        {/* Rate */}
+        {/* rate */}
         <FormInput
           name="rate"
           label="Rate per kg (INR)"
@@ -32,7 +32,7 @@ export default function PackageSection() {
           placeholder="Enter rate"
         />
 
-        {/* Total */}
+        {/* total */}
         <div className="flex flex-col gap-1">
           <label className="text-sm font-medium text-gray-700">
             Total Shipping Cost (INR)

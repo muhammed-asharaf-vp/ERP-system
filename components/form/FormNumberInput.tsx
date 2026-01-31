@@ -28,7 +28,7 @@ export default function FormNumberInput({
 
   return (
     <div className="flex flex-col gap-1">
-      {/* Label */}
+      {/* label */}
       <label
         htmlFor={name}
         className="text-sm font-medium text-gray-800"
@@ -36,7 +36,7 @@ export default function FormNumberInput({
         {label}
       </label>
 
-      {/* Number Input */}
+      {/* number input */}
       <input
         id={name}
         type="number"
