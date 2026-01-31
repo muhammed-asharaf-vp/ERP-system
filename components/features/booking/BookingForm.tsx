@@ -40,18 +40,15 @@ export default function BookingForm() {
   return (
     <FormProvider {...methods}>
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
-  {/* Sender + Receiver (2-column on desktop) */}
   <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
     <SenderSection />
     <ReceiverSection />
   </div>
 
-  {/* Package Details below */}
   <div className="mt-6">
     <PackageSection />
   </div>
 
-  {/* Submit button */}
   <div className="mt-6 flex justify-end">
     <SubmitButton />
   </div>
